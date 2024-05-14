@@ -1,0 +1,129 @@
+nav a:hover {
+  color: black;
+}
+
+nav a:visited {
+  color: black;
+}
+
+#hero-section {
+  background-image: url(../imgs/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: fill;
+  background-position: top;
+  
+  height: 200px;
+
+
+
+
+
+}
+
+#parent {
+  position: relative;
+  text-align: center;
+  background-color: rgb(35, 83, 35);
+  height: 28%;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+
+
+
+}
+
+#top-right {
+  position: absolute;
+  text-align: center;
+  
+  
+
+
+}
+
+
+
+
+@media screen and (min-width: 600px) {
+  #hero-section {
+    background-image: url(../imgs/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: fill;
+    background-position: top;
+    
+    height: 450px;
+
+
+
+
+
+  }
+
+  #parent {
+    position: relative;
+
+    text-align: center;
+    background-color:  rgb(35, 83, 35);
+    height: 15%;
+    width: 50%;
+    top: 25px;
+    left: 50%;
+    transform: translate(-50%);
+
+
+  }
+
+  #top-right {
+    position: absolute;
+    text-align: left;
+   
+
+
+
+  }
+
+}
+
+
+
+
+
+@media screen and (min-width: 1000px) {
+
+  #hero-section {
+    background-image: url(../imgs/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    
+    height: 745px;
+
+  }
+
+  #parent {
+    position: relative;
+    text-align: center;
+    background-color:  rgb(35, 83, 35);
+    height: 10%;
+    width: 45%;
+    top: 60px;
+    left: 80px;
+    transform: none;
+
+
+
+  }
+
+  #top-right {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    
+
+
+  }
+
+}
